@@ -78,7 +78,7 @@ For validation, comment out the code of the Inference section.
 |--------|------------|--------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DCNN   | 52.68 M    | 11.0 G | 82.3 %    | [Google Drive](https://drive.google.com/file/d/1DcYmyYM0enILJjaBT7gEMzPFvEftiQ83/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/14VYegT_o4kHkFyskvLhr0w?pwd=51t2) |
 | DCNN-B | 88.47 M    | 16.1 G | 84.0 %    | Release later                                                                                                                                                                   |
-| DCNN-L | 206.09 M   | 42.0 G | 85.2 %    | Release later                                                                                                                                                                   |
+| DCNN-L | 206.09 M   | 42.0 G | 84.9 %    | Release later                                                                                                                                                                   |
 
 # DCNN Test Results on fine-grained benchmarks
 | Datasets          | Top-1 Acc | Top-5 Acc | Link |
