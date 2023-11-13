@@ -74,15 +74,23 @@ For validation, comment out the code of the Inference section.
 
 
 # Proposed model evaluation on ImageNet1k
-|  Model  | Parameters | MACs   | Top-1 Acc | Link |
-| ------- | ---------- | ------ | --------- | ---- |
-|  DCNN   |  52.68 M   | 11.0 G |   82.3 %  | [Google Drive](https://drive.google.com/file/d/1DcYmyYM0enILJjaBT7gEMzPFvEftiQ83/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/14VYegT_o4kHkFyskvLhr0w?pwd=51t2)|
-
+| Model  | Parameters | MACs   | Top-1 Acc | Link                                                                                                                                                                            |
+|--------|------------|--------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DCNN   | 52.68 M    | 11.0 G | 82.3 %    | [Google Drive](https://drive.google.com/file/d/1DcYmyYM0enILJjaBT7gEMzPFvEftiQ83/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/14VYegT_o4kHkFyskvLhr0w?pwd=51t2) |
+| DCNN-B | 88.47 M    | 16.1 G | 84.0 %    | Release later                                                                                                                                                                   |
+| DCNN-L | 206.09 M   | 42.0 G | 85.2 %    | Release later                                                                                                                                                                   |
 
 # DCNN Test Results on fine-grained benchmarks
-|       Datasets    | Top-1 Acc | Top-5 Acc | Link |
-| ------------------| ----------| --------- |---- |
+| Datasets          | Top-1 Acc | Top-5 Acc | Link |
+|-------------------| ----------| --------- |---- |
 | Oxford Flowers102 |   97.3%   |   99.1%   | [Google Drive](https://drive.google.com/file/d/17_nIoVZsRRztMOcRpMvs9A_kenwfzj3D/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/1d7hxg3JUGgpGMrhhiU5gCA?pwd=25c0)|
-|       Food101     |   84.4%   |   96.2%   | [Google Drive](https://drive.google.com/file/d/1ZGy1bHgbqjtEXPmo3DdiaqFo-rjk76Nf/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/1d36wszGlBeaqbaDtpeKwTg?pwd=7axm)|
-|    Stanford Dogs  |   87.4%   |   98.7%   | [Google Drive](https://drive.google.com/file/d/1WDBknPtvIfi7ejKCE3yKYwc1xUhUQUIt/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/1xFkFIM9I2uGT7cABANMk_g?pwd=3oqo)|
-|     CUB200-2011   |   70.5%   |   91.3%   | [Google Drive](https://drive.google.com/file/d/1yvVQV0N87-jrwHLdxuLI1x9IU3yoHGU0/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/1KdmRWzP8h7jCMN3DnhJc7A?pwd=hdbc)|
+| Food101           |   84.4%   |   96.2%   | [Google Drive](https://drive.google.com/file/d/1ZGy1bHgbqjtEXPmo3DdiaqFo-rjk76Nf/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/1d36wszGlBeaqbaDtpeKwTg?pwd=7axm)|
+| Stanford Dogs     |   87.4%   |   98.7%   | [Google Drive](https://drive.google.com/file/d/1WDBknPtvIfi7ejKCE3yKYwc1xUhUQUIt/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/1xFkFIM9I2uGT7cABANMk_g?pwd=3oqo)|
+| CUB200-2011       |   70.5%   |   91.3%   | [Google Drive](https://drive.google.com/file/d/1yvVQV0N87-jrwHLdxuLI1x9IU3yoHGU0/view?usp=drive_link), [Baidu Netdisk](https://pan.baidu.com/s/1KdmRWzP8h7jCMN3DnhJc7A?pwd=hdbc)|
+
+# DCNN Test Results on applied medical datasets
+| Datasets        | Accuracy | Link          |
+|-----------------|----------|---------------|
+| Brain tumor MRI | 90.7%    | Release later |
+| Pneumonia CT    | 93.2%    | Release later |
+
