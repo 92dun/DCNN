@@ -329,7 +329,7 @@ def main(args):
     start_time = time.time()
     max_accuracy = 0.0
     
-    ###### Statistical model information
+    ###### 统计模型信息
     # from torchsummary import summary
     # summary(model, input_size=(3, 224, 224), batch_size=-1)
     
@@ -344,7 +344,7 @@ def main(args):
     # return
     
     
-    ##### Output model structure
+    ##### 输出模型结构
     # print(model)
     
     for epoch in range(args.start_epoch, args.epochs):
